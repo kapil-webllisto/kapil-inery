@@ -1,30 +1,33 @@
-# To run the DAPP locally
+# See live demo
 
-## Change directory to kapil and install dependency
+https://kapil-six.vercel.app/
 
-```bash
-cd kapil/
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## How to run?
+
+**1. Change directory to `kapil`**
+
+```shell
+cd ./kapil
 ```
 
-```bash
+**2. Install dependencies**
+
+```shell
 npm install
 ```
 
-## Developing
+**3. Create & edit `.env` file**
 
-Once you've change a directory and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```
+cp .env.example .env
 ```
 
-## Building
+**4. Run the script**
 
-To create a production version of your app:
-
-```bash
-npm run build
+```
+npm run start
 ```
